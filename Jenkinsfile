@@ -23,6 +23,7 @@ pipeline {
         stage('Test Stage'){
           steps{
             echo 'test stage added'
+            npm test 
           }
         }
     }
